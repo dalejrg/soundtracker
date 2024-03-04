@@ -1,0 +1,23 @@
+{
+  "name": "soundtracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalejrg/soundtracker.git"
+  },
+  "author": "Dayana Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalejrg/soundtracker/issues"
+  },
+  "homepage": "https://github.com/dalejrg/soundtracker#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}

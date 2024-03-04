@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background-color: #1b1a1a;
+}
+
+header {
+  background-color: #1db954;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+main {
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: black;
+  margin-bottom: 20px;
+  .img-logo {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+  }
+  .title {
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+
+.result-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 90%;
+  background-color: #2b2a2a;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+  outline: none;
+  font-weight: 100;
+}
+
+#artistResults,
+#tracksResults {
+  margin-top: 30px;
+  cursor: pointer;
+  img {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+  }
+  div {
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  input[type="text"] {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
